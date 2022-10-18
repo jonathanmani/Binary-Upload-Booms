@@ -32,7 +32,7 @@ It's also important to map out how data is connected to eachother. For this app,
 
 [My Pocket Dictionary](https://github.com/jonathanmani/Dictionary) - A minimalist dictionary app that uses the Merriam-Webster API
 
-# Contributors
+### Contributors
 
 **:point_right: John Malapit**
 :e-mail: [contact@johnmal.dev](mailto:contact@johnmal.dev)
