@@ -28,7 +28,7 @@ It's also important to map out how data is connected to eachother. For this app,
 
 [Pomodoro Task Tracker](https://github.com/jonathanmani/Pomodoro-Task-Tracker) - Create tasks, set your priority and record pomodoro sessions with this all-in-one task tracker
 
-[InstaPrep](https://github.com/jonathanmani/InstaPrep) - Your meals should be an accident. Plan them in minutes with InstaPrep
+[InstaPrep](https://github.com/jonathanmani/InstaPrep) - Your meals shouldn't be an accident. Plan them in minutes with InstaPrep
 
 [My Pocket Dictionary](https://github.com/jonathanmani/Dictionary) - A minimalist dictionary app that uses the Merriam-Webster API
 
