@@ -1,33 +1,28 @@
-# Install
+# Social Media Group -- Binary Upload Boom
 
-`npm install`
+A Social Media Clone that handles all the functionality of a modern day social media app. User can like each other's posts, upload images, write comments, change their profiles and view their feed
 
----
+![Social Media](Social.png "Social Media")
 
-# Things to add
+## How It's Made
 
-- Create a `.env` file in config folder and add the following as `key = value`
-  - PORT = 2121 (can be any port example: 3000)
-  - DB_STRING = `your database URI`
-  - CLOUD_NAME = `your cloudinary cloud name`
-  - API_KEY = `your cloudinary api key`
-  - API_SECRET = `your cloudinary api secret`
+Tech: MongoDB, Express, Node, Cloudinary, Multer, PassportJS, bcrypt, Mongoose, EJS
 
----
+This app was built using MongoDB as a database, Express and Node to handle server requests, Cloudinary to handle image and music upload and PassportJS to handle user authentication. Bcrypt was used to hash passwords
 
-# Run
+## Optimizations
 
-`npm start`
+For future implementations, I would like to add functionality for users to make their photos public or private.
 
-# Features
-- [ ] CSS Styling - Chavis
-- [X] Implement delete comment functionality - Jonathan
-- [ ] Add profile pic to user profiles - Ryan
-- [ ] Allow users to follow other users - John
-- [ ] show username and number of likes on feed page - Nic
-- [ ] Allow photos to be public/private - Jonathan
-- [ ] implement like functionality for individual comments - Nic
-- [ ] add music widget to profiles - Sabrina
+For UI, I'd also add dark mode, probably by implementing some TailwindCSS
+
+## Lessons Learned
+
+In this project, I learned how to set functionality based on if the user owns that data. For example, only a user can delete their own comment, while other users can only view it.
+
+I also learned how to use Cloudinary as a repository to host all multimedia content and use multer to recognize audio file types
+
+It's also important to map out how data is connected to eachother. For this app, it was important to understand the relationships between posts, users and comments as all of these could belong to different entities.
 
 # Contributors
 
@@ -38,3 +33,13 @@
 **:point_right: Jonathan Mani**
 :e-mail: [email@email.com](mailto:social.chapters@simplelogin.com)
 :computer: [Github](https://github.com/jonathanmani/)
+
+**:point_right: Sabrina Pyles**
+
+**:point_right: Nic Resch**
+
+**:point_right: Chavis Gill**
+
+**:point_right: Ryan Oh**
+
+**:point_right: Chris Miller**
