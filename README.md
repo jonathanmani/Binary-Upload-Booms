@@ -1,6 +1,6 @@
 # Social Media Group -- Binary Upload Boom
 
-A Social Media Clone that handles all the functionality of a modern day social media app. User can like each other's posts, upload images, write comments, change their profiles and view their feed
+A Social Media App that handles all the functionality of a modern day social media app. User can like each other's posts, upload images, write comments, change their profiles and view their feed
 
 ![Social Media](Social.png "Social Media")
 
